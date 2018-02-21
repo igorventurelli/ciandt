@@ -13,6 +13,7 @@
         <module>controller</module>
         <module>dto</module>
         <module>service</module>
+        <module>business</module>
     </modules>
 
 </project>
