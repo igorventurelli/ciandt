@@ -4,7 +4,7 @@ cache:
   directories: "$HOME/.m2"
 addons:
   sonarcloud:
-    organization: ciandt-organization-key
+    organization: "ciandt-organization-key"
     token:
       secure:HfRCf6h5FLQqRZ6GrmTwehVPuMHH7UfLEkQVVJYs2rfhJD+kEXxFUENalNolOZQx0LFfuGgqgEw6PyfxJ2PQZDsJ+bnPknk9SCWWx9+tqzOeHlLMS6vhZsAqYXlLRVscgtsNl6dbrLVNRUJZJy/i0wrOnXFu6uWNYignjf0iOacm0ZLWIzR/YHlGTMUkOIZupEL5U5MYUGTZufWT4kKD2mttOgHcK4VETVgHdzvYwtJ4QPM7BAur4W/k1dLFp6X8XQkNhX4PMW/KPPCDR6YSXlj4RlKahp/3FgfmviWhI23v/fYZAVAbuRi4qzznp2Mp0G4MabfQldFfGJV/6t2Yvugd2RUWv+frEtowjzSDN7NoPOf1SWwfOA3W8SH1ZESsLatvuR4s6sj4hoOhfrJp+UATKew3aech/tu9GQKyUOKrERBtxGY2/bjKHpeyeKs9P1i78pYU86/eGD0s5JOvVEM9Pokcvp3MWX47bmqjaVNaRRLHT3hdiPHmDNBZqWmZsYydW9ANDo1yN6kcmdHfaGgoCr79saEWyMu19g0zGy4ShVb+dERqbF2tyA/TEWzKuKKNe+cfBbnQN2dP4zZYS39FUsqIR74RAkw0CLO2i6CYObKDef/MGyLgyFIXMGh1chQi3VvyNh7jh8/f2L97c+/E4BP7ZyiNVrCiwnhGxoA=
 script:
