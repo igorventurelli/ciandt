@@ -1,11 +1,10 @@
 package br.com.igorventurelli.ciandt.controller.representation;
 
 import br.com.igorventurelli.ciandt.dto.dto.UserDTO;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserRepresentation {
