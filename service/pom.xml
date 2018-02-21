@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <artifactId>application</artifactId>
+    <artifactId>service</artifactId>
     <groupId>br.com.igorventurelli.ciandt</groupId>
     <version>1.0.0</version>
 
@@ -20,12 +20,20 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.9</version>
                 <executions>
                     <execution>
                         <goals>
-                            <goal>repackage</goal>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -47,7 +55,7 @@
         </dependency>
         <dependency>
             <groupId>br.com.igorventurelli.ciandt</groupId>
-            <artifactId>controller</artifactId>
+            <artifactId>dto</artifactId>
             <version>1.0.0</version>
         </dependency>
         <!-- Test scopes -->

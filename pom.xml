@@ -12,6 +12,7 @@
         <module>application</module>
         <module>controller</module>
         <module>dto</module>
+        <module>service</module>
     </modules>
 
 </project>
