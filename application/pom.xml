@@ -50,6 +50,12 @@
             <artifactId>controller</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <!-- Test scopes -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
